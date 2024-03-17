@@ -1,0 +1,12 @@
+{
+  "plugins/form-builder/src/resources/assets/app.css": {
+    "file": "assets/app-oJOMSoNE.css",
+    "isEntry": true,
+    "src": "plugins/form-builder/src/resources/assets/app.css"
+  },
+  "plugins/form-builder/src/resources/assets/app.js": {
+    "file": "assets/app-YgWKzOkk.js",
+    "isEntry": true,
+    "src": "plugins/form-builder/src/resources/assets/app.js"
+  }
+}

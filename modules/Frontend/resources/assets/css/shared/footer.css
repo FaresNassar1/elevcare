@@ -1,0 +1,32 @@
+.main-footer{
+    border-top: solid var(--secondary);
+    padding: 50px 0px;
+
+}
+.sub-footer {
+    padding: 15px 0;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: center
+    ;
+}
+.copy-right{
+    color: white;
+    font-size: 16px;
+}
+
+
+.copy-rights {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.main-footer ul li{
+    margin-bottom: 10px;
+}
+.main-footer ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}

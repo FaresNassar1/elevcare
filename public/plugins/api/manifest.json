@@ -1,0 +1,12 @@
+{
+  "plugins/api/src/resources/assets/app.css": {
+    "file": "assets/app-LQOhpMuz.css",
+    "isEntry": true,
+    "src": "plugins/api/src/resources/assets/app.css"
+  },
+  "plugins/api/src/resources/assets/app.js": {
+    "file": "assets/app-0PeJec1s.js",
+    "isEntry": true,
+    "src": "plugins/api/src/resources/assets/app.js"
+  }
+}

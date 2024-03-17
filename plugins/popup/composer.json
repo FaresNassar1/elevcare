@@ -1,0 +1,19 @@
+{
+    "name": "juzaweb/popup",
+    "description": "Create Popups for Website",
+    "extra": {
+        "juzaweb": {
+            "providers": [
+                "Juzaweb\\Popup\\Providers\\PopupServiceProvider"
+            ],
+            "name": "Popup",
+            "domain": "jpopups",
+            "version": "1.0.2"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Juzaweb\\Popup\\": "src/"
+        }
+    }
+}

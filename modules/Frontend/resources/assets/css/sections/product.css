@@ -1,0 +1,22 @@
+.product {
+    align-items: center;
+    background-color: #fff;
+    border: 4px solid var(--primary-border-color);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 25px;
+    transition: all .3s ease;
+    height: 100%;
+}
+.product a{
+    margin-top: 30px;
+}
+.product--title{
+
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}

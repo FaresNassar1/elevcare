@@ -1,0 +1,66 @@
+{
+    "templates": {
+        "home": {
+            "label": "Home",
+            "view": "theme::templates.home",
+            "blocks": {
+                "content": {
+                    "label": "Content"
+                }
+            }
+        },
+        "contact": {
+            "label": "Contact",
+            "view": "theme::templates.contact"
+        }
+    },
+    "nav_menus": {
+        "primary": {
+            "label": "Primary menu"
+        },
+        "secondary": {
+            "label": "Secondary menu"
+        }
+    },
+    "landing_pages": {
+        "plain_content": {
+            "label": "plain_content",
+            "fields": [
+                "editor",
+                "thumbnail"
+            ]
+        },
+        "three_boxes": {
+            "label": "three_boxes",
+            "fields": [
+                "items_repeater",
+                "is_slider"
+            ]
+        },
+        "images_list": {
+            "label": "images_list",
+            "fields": [
+                "images"
+            ]
+        },
+        "form_block": {
+            "label": "form_block",
+            "fields": [
+                "form_block",
+                "thumbnail"
+            ]
+        },
+        "video": {
+            "label": "video",
+            "fields": [
+                "youtube_url"
+            ]
+        },
+        "collapse_block": {
+            "label": "collapse_block",
+            "fields": [
+                "items_repeater"
+            ]
+        }
+    }
+}

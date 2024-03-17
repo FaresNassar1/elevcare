@@ -1,0 +1,24 @@
+/node_modules
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/vendor
+/storage/app/public
+.env
+.env.example
+.env.backup
+.env.testing
+.htaccess
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+/.php-cs-fixer.cache
+/.deploy.yml
+# add json-lock and composer lock
+composer.lock
+package-lock.json
+.env.example

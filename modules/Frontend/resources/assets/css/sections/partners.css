@@ -1,0 +1,14 @@
+.partner-img {
+    height: 100%;
+    border: solid 4px var(--primary-border-color);
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.partner-img img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}

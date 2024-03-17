@@ -1,0 +1,168 @@
+:root {
+    --text-multiplier: 1;
+}
+
+.landing-section-title {
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--secondary);
+    text-transform: capitalize;
+}
+
+.landing-section.center .landing-section-title {
+    text-align: center;
+}
+
+.landing-section.white .landing-section-title {
+    color: white;
+}
+
+.landing-section-title {
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--secondary);
+    text-transform: capitalize;
+}
+
+.landing-section.center .landing-section-title {
+    text-align: center;
+}
+
+.landing-section.white .landing-section-title {
+    color: white;
+}
+
+.landing-section-content {
+    margin-top: 30px;
+}
+
+.landing-section-img img {
+    display: block;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+}
+
+.landing-section.white .landing-section--desc > * {
+    color: white !important;
+}
+
+.landing-section.center .landing-section--desc > * {
+    text-align: center !important;
+}
+
+.landing-section--desc p,
+.landing-section--desc {
+    font-family: var(--font) !important;
+    text-align: justify;
+    color: var(--secondary);
+    font-size: 20px !important;
+    line-height: 35px !important;
+    word-break: break-word;
+}
+
+.landing-section--desc span {
+    font-family: var(--font) !important;
+    text-align: justify;
+    color: var(--secondary);
+    font-size: 20px;
+    line-height: 35px !important;
+    word-break: break-word;
+}
+
+.landing-section--desc h1,
+.landing-section--desc h2,
+.landing-section--desc h3,
+.landing-section--desc h4,
+.landing-section--desc h5,
+.landing-section--desc h6 {
+    font-family: var(--font) !important;
+    text-align: justify;
+    font-weight: bold;
+    color: var(--primary);
+    margin: 15px 0 10px;
+    line-height: 35px !important;
+    word-break: break-word;
+    position: relative;
+}
+
+/*.landing-section--desc h1::before,*/
+/*.landing-section--desc h2::before,*/
+/*.landing-section--desc h3::before,*/
+/*.landing-section--desc h4::before,*/
+/*.landing-section--desc h5::before,*/
+/*.landing-section--desc h6::before {*/
+/*    content: "\e902";*/
+/*    font-family: "Icomoon" !important;*/
+/*    margin-right: 5px;*/
+/*    !*color: rgba(var(--bs-secondary-rgb), 1);*!*/
+/*}*/
+
+.landing-section--desc h1 {
+    font-size: calc(2em * var(--text-multiplier));
+}
+
+.landing-section--desc h2 {
+    font-size: calc(1.5em * var(--text-multiplier));
+}
+
+.landing-section--desc h3 {
+    font-size: calc(1.17em * var(--text-multiplier));
+}
+
+.landing-section--desc h4 {
+    font-size: calc(1em * var(--text-multiplier));
+}
+
+.landing-section--desc h5 {
+    font-size: calc(.83em * var(--text-multiplier));
+}
+
+.landing-section--desc h6 {
+    font-size: calc(.67em * var(--text-multiplier));
+}
+
+.landing-section--desc > :first-child {
+    margin-top: 0 !important;
+}
+
+.landing-section--desc > :last-child {
+    margin-bottom: 0 !important;
+}
+
+.landing-section--desc iframe,
+.landing-section--desc img {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.landing-section--desc .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.landing-section--desc a:not(.btn) {
+    color: var(--primary);
+    text-decoration: none !important;
+    word-break: break-word;
+}
+
+/*.landing-section--desc ul,*/
+/*.landing-section--desc dl,*/
+/*.landing-section--desc ol {*/
+/*    list-style: none;*/
+/*}*/
+
+.landing-section--desc ul li,
+.landing-section--desc dl li,
+.landing-section--desc ol li {
+    position: relative;
+    margin-bottom: 10px;
+}
+

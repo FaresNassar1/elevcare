@@ -1,0 +1,31 @@
+.faq-item {
+    display: block;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--primary);
+}
+
+.faq-item-head {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.faq-item-head::after {
+    content: "\e91a";
+    font-family: icomoon !important;
+    transition: all 0.3s ease;
+}
+
+.faq-item.active .faq-item-head::after {
+    transform: rotate(180deg);
+    color: var(--primary);
+}
+
+.faq-item-content {
+    display: none;
+    border-top: 1px solid var(--primary);
+    padding: 15px;
+}

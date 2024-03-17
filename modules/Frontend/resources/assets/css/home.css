@@ -1,0 +1,23 @@
+@import "./shared/vars.css";
+@import "./shared/base.css";
+@import "./shared/grids.css";
+/*@import "./shared/main-classes.css";*/
+@import "./shared/header.css";
+@import "./shared/footer.css";
+@import "./shared/buttons.css";
+@import "./shared/owl-carousel.css";
+/*@import "../fonts/MadaniArabic/stylesheet.css";*/
+@import "./items/section.css";
+@import "./shared/shared-page.css";
+@import "./sections/product.css";
+@import "./sections/services.css";
+@import "./sections/why-us.css";
+@import "./sections/clients.css";
+@import "./sections/partners.css";
+@import "./sections/contact.css";
+
+
+/*@import "./items/main-slider.css";*/
+/*@import "./items/core-vlaues.css";*/
+/*@import "./items/category.css";*/
+/*@import "./items/statistic.css";*/

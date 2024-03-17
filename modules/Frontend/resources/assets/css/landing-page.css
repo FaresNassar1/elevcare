@@ -1,0 +1,14 @@
+@import "./shared/vars.css";
+@import "./shared/base.css";
+@import "./shared/grids.css";
+@import "./shared/main-classes.css";
+@import "./shared/header.css";
+/*@import "../fonts/icomoon/style.css";*/
+@import "./shared/footer.css";
+@import "./shared/buttons.css";
+@import "./landing_page/section.css";
+@import "./landing_page/box.css";
+@import "./landing_page/video.css";
+@import "./landing_page/gallery.css";
+@import "./landing_page/faq.css";
+@import "./formio.full.min.css";

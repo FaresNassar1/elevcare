@@ -1,0 +1,41 @@
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.list-plain {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-image {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
