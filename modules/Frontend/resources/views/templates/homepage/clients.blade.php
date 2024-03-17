@@ -21,9 +21,11 @@
                         <img src="{{ asset('front/assets/images/1c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="card-text ">An-Najah National University Hospital
+                            <p class="Hospital--name ">An-Najah National University Hospital
+
+
                             </p>
-                            <h5>Nablus
+                            <h5 class="Hospital-city">Nablus
 
                             </h5>
                         </div>
@@ -34,9 +36,11 @@
                         <img src="{{ asset('front/assets/images/2c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="card-text ">An-Najah National University Hospital
+                            <p class="Hospital--name">Al-Istishari Hospital
+
+
                             </p>
-                            <h5>Nablus
+                            <h5 class="Hospital-city">gaza
 
                             </h5>
                         </div>
@@ -47,9 +51,11 @@
                         <img src="{{ asset('front/assets/images/3c.jpg') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="card-text ">An-Najah National University Hospital
+                            <p class="Hospital--name">Al-Ahli Hospital
+
+
                             </p>
-                            <h5>Nablus
+                            <h5 class="Hospital-city">Nablus
 
                             </h5>
                         </div>
@@ -60,9 +66,9 @@
                         <img src="{{ asset('front/assets/images/4c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="card-text ">An-Najah National University Hospital
+                            <p class="Hospital--name">An-Najah National University Hospital
                             </p>
-                            <h5>Nablus
+                            <h5 class="Hospital-city">hebron
 
                             </h5>
                         </div>
@@ -73,9 +79,11 @@
                         <img src="{{ asset('front/assets/images/5c.jpg') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="card-text ">An-Najah National University Hospital
+                            <p class="Hospital--name">Al-Istishari Hospital
+
+
                             </p>
-                            <h5>Nablus
+                            <h5 class="Hospital-city">yafa
 
                             </h5>
                         </div>
@@ -86,9 +94,9 @@
                         <img src="{{ asset('front/assets/images/2c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="card-text ">An-Najah National University Hospital
+                            <p class="Hospital--name">An-Najah National University Hospital
                             </p>
-                            <h5>Nablus
+                            <h5 class="Hospital-city">Nablus
 
                             </h5>
                         </div>
@@ -99,9 +107,9 @@
                         <img src="{{ asset('front/assets/images/1c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="card-text ">An-Najah National University Hospital
+                            <p class="Hospital--name">An-Najah National University Hospital
                             </p>
-                            <h5>Nablus
+                            <h5 class="Hospital-city">Nablus
 
                             </h5>
                         </div>

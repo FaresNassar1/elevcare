@@ -7,6 +7,7 @@
         position: relative;
         display: flex;
         align-items: center;
+        border-bottom:4px solid var(--secondary);
     }
 </style>
 <section class=" section mv-50 email section-bg-img">

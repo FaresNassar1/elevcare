@@ -3,5 +3,17 @@
     background-color: #fff;
     flex: 1;
     overflow: hidden;
-    padding: 40px;
+    padding: 20px 40px;
+}
+.Hospital--name{
+margin-top: 10px;
+    font-size: 20px;
+    margin: 0;
+}
+.Hospital-city{
+
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--secondary);
+    margin-top: 10px;
 }
