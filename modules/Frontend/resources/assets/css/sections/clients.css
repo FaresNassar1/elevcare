@@ -1,19 +1,27 @@
 .client-item {
-    background-color: #fff;
     overflow: hidden;
-    padding: 20px 40px;
+    padding: 12px;
     min-height: 288px;
-    margin: 14px 35px;
-
 }
-.Hospital--name{
+
+.client--name {
     font-size: 20px;
     line-height: 30px;
-    margin: 10px 0px;}
-.Hospital-city{
+}
+
+.client-city {
 
     font-size: 18px;
     font-weight: 500;
     color: var(--secondary);
     margin-top: 10px;
+}
+.client{
+    margin-top: 20px;
+}
+.client-item img {
+    background-color: white;
+    padding: 20px;
+    max-height: 208px;
+    object-fit: contain;
 }

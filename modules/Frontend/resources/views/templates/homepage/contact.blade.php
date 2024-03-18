@@ -21,8 +21,8 @@
             </form>
         </div>
 
-        <div class="section-info">
-            <h2 class="section--subtitle white ">
+        <div class="section-info white">
+            <h2 class="section--subtitle  ">
                  ترغب في أن تصبح شريكا؟ عميل محتمل؟ بحاجة إلى مساعدة أو لديك سؤال؟
             </h2>
             <div class="section-list-title">معلومات الاتصال

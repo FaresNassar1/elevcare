@@ -24,17 +24,14 @@
     font-size: 21px;
     font-weight: 700;
     color: #ea9d22;
-    margin: 14px 0;
     text-transform: capitalize;
 }
 
 .section--subtitle {
     font-size: 32px;
-    color: #000000;
     font-weight: 700;
     text-transform: capitalize;
     margin: 0;
-    padding-bottom: 3px;
 }
 
 .section--desc {
@@ -42,13 +39,11 @@
     color: rgb(111, 128, 138);
     margin: 15px 0 0px;
     line-height: 1.8;
-    max-width: 885px;
-}
+    max-width: 52%;}
 
 .bg-section-gray{
 
     background-color: #dbdbdb3d;
-    padding: 50px 0;
 }
 .section-list{
 

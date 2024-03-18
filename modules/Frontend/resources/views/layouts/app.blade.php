@@ -64,23 +64,7 @@
                                 <li><a href="#">الصيانة</a></li>
                             </ul>
                         </li>
-
-                        <li class="dropdown"><a href="#">مشاريع مرجعية</a>
-                            <ul class="dropdown-content">
-                                <li> <a href="#">منطقة الشمال</a></li>
-                                <li> <a href="#">منطقة الوسط</a></li>
-                                <li><a href="#">منطقة الجنوب</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="#">التسعير</a>
-                            <ul class="dropdown-content">
-                                <li>
-                                    <a href="#"> تسعير المبيعات</a>
-                                </li>
-                                <li><a href="#">تسعير الصيانة </a></li>
-                            </ul>
-                        </li>
-                        </li>
+                        <li><a href="#">من نحن</a></li>
                         <li><a href="#">الوظائف</a></li>
                         <li><a href="#">التواصل</a></li>
                     </ul>
@@ -107,12 +91,12 @@
                     <div class="col-md-4">
                         <ul>
                             <li><a href="">الرئيسية</a></li>
-                        </ul>
-                        <ul>
+
+
                             <li><a href=""> معلومات عنا
                                 </a></li>
-                        </ul>
-                        <ul>
+
+
                             <li><a href=""> شركاؤنا
                                 </a></li>
                         </ul>

@@ -97,3 +97,19 @@ font-family: sans-serif !important ;
     color: white;
 }
 
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #000000 !important;
+}
+.owl-theme .owl-dots .owl-dot span
+{
+    background: white !important ;
+    border-radius: 50%;
+    border: solid 2px;
+    padding: 3px;
+    margin: 5px 4px !important;
+
+
+}
+
+
+

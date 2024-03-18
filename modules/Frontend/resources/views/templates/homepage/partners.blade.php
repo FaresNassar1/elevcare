@@ -3,10 +3,10 @@
     <div class="container text-center  ">
 
         <div class="section-info center">
-            <h2 class="section--title ">شكرا لنزاهتك
+            <div class="section--title ">شكرا لنزاهتك
 
 
-            </h2>
+            </div>
             <h3 class="section--subtitle">الشركاء الدوليون
 
             </h3>

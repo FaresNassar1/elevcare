@@ -34,13 +34,12 @@ const isRtl = $("html").attr("dir") === "rtl";
     });
     $(".owl-carousel").owlCarousel({
         rtl: isRtl,
-        margin: 1,
         items: 1,
         dots: true,
         dotsEach: true,
 
         loop: true,
-        margin: 10,
+        margin: 1,
         nav: true,
         responsive: {
             0: {

@@ -4,9 +4,9 @@
     <div class="container text-center  ">
 
         <div class="section-info center">
-            <h2 class="section--title ">تجربة يمكنك الوثوق بها
+            <div class="section--title ">تجربة يمكنك الوثوق بها
 
-            </h2>
+            </div>
             <h3 class="section--subtitle">لماذا نحن؟
             </h3>
             <div class="section--desc">توفير المال – هو شيء نود جميعا أن نفعله. سواء كنت تكافح من أجل إدارة الأمور اليومية أو الحصول على راتب مكون من ستة أرقام، فإن الادخار هو شيء نفكر فيه جميعًا.

@@ -7,15 +7,21 @@
     flex: 1;
     flex-direction: column;
     overflow: hidden;
-    padding: 25px;
+    padding: 7px 25px;
     transition: all .3s ease;
     height: 100%;
 }
-.product a{
+
+.product a {
     margin-top: 30px;
 }
-.product--title{
 
-    margin-top: 10px;
+.product--title {
+
     font-size: 19px;
+}
+
+.product-info {
+    margin-top: 10px;
+
 }

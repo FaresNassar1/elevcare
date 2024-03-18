@@ -4,17 +4,12 @@
 
     }
 
-
-
-
-
 </style>
 
-<section class="section mv-50 white">
-    <div class="bg-services">
+<section class="section mv-50  bg-services">
         <div class="container">
-            <div class="section-info">
-                <h2 class="section--subtitle white ">الخدمات التي نقدمها
+            <div class="section-info white">
+                <h2 class="section--subtitle  ">الخدمات التي نقدمها
                 </h2>
                 <ul class="services-list">
                     <li>استيراد المنتجات الطبية المتميزة</li>
@@ -28,5 +23,4 @@
             </div>
         </div>
         <img class="image1" src="{{ asset('front/assets/images/abov.jpg') }}" alt="services image">
-    </div>
 </section>

@@ -338,7 +338,7 @@ if (!function_exists('get_logo')) {
         $current_locale = get_locale();
         return upload_url(
             get_config("logo_$current_locale"),
-            asset($default ?: 'jw-styles/juzaweb/images/ELEVCARE.png')
+            asset($default ?: 'jw-styles/juzaweb/images/logo.png')
         );
     }
 }
