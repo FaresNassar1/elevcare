@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'bein';
+    src: url('./fonts/webfonts/ArbFONTS-4_AF.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bein';
+    src: url('./fonts/webfonts/ArbFONTS-beIN_Normal.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bein';
+    src: url('./fonts/webfonts/ArbFONTS-bein-ar-normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

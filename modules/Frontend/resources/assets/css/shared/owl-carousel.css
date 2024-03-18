@@ -48,14 +48,17 @@
     width: 100%;
 
 }
+
 .owl-carousel.owl-client .owl-nav .owl-prev,
 .owl-carousel.owl-client .owl-nav .owl-next {
     font-size:60px !important;
+    line-height: 50px !important;
 
 }
-.owl-carousel.owl-client .owl-nav .owl-prev:hover,
-.owl-carousel.owl-client .owl-nav .owl-next:hover {
-background-color: none !important;
+
+.owl-carousel.owl-client .owl-nav span
+{
+font-family: sans-serif !important ;
 }
 .owl-main .owl-nav {
     position: absolute;

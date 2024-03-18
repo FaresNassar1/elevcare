@@ -12,7 +12,7 @@
 }
 
 .btn-primary {
-    color: white;
+    color: white   ;
     background-color: var(--primary);
 }
 

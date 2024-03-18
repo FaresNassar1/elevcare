@@ -133,7 +133,7 @@
                             <li><a href="">اتصال</a></li>
                             <li><a href="">Al-sawhareh near abu deis
                                 </a></li>
-                            <li><a href="">(972)-524443395
+                            <li><a class="phone-number" href="">(972)-524443395
                                 </a></li>
                         </ul>
 

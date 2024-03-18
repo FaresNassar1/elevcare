@@ -25,9 +25,9 @@
 
     .image1 {
         position: absolute;
-    left: 6%;
-    top: -25px;
-    height: 417px;
+    left: 5%;
+    top: -20px;
+    height: 500px;
     filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.309));
     }
 
