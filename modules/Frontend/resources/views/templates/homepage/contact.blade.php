@@ -1,13 +1,7 @@
 <style nonce="{{ csp_nonce() }}">
     .section-bg-img {
         background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.353)), url('{{ asset('front/assets/images/blure2.jpg') }}');
-        background-size: cover;
-        background-position: center;
-        min-height: 500px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        border-bottom:4px solid var(--secondary);
+
     }
 </style>
 <section class=" section mv-50  section-bg-img">

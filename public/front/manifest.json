@@ -55,7 +55,7 @@
     ]
   },
   "modules/Frontend/resources/assets/js/home.js": {
-    "file": "assets/home-a6YHbEV5.js",
+    "file": "assets/home-BTzQV2V5.js",
     "src": "modules/Frontend/resources/assets/js/home.js",
     "isEntry": true,
     "imports": [
@@ -66,7 +66,7 @@
       "__commonjsHelpers-C4iS2aBk.js"
     ],
     "css": [
-      "assets/home-DcU72hqf.css"
+      "assets/home-BYz_8OBX.css"
     ]
   },
   "modules/Frontend/resources/assets/js/inner.js": {
@@ -81,7 +81,7 @@
     ]
   },
   "modules/Frontend/resources/assets/js/landing-page.js": {
-    "file": "assets/landing-page-QeOpwVP9.js",
+    "file": "assets/landing-page-zvZVvjju.js",
     "src": "modules/Frontend/resources/assets/js/landing-page.js",
     "isEntry": true,
     "imports": [
@@ -91,7 +91,7 @@
       "__commonjsHelpers-C4iS2aBk.js"
     ],
     "css": [
-      "assets/landing-page-C3K5OzM6.css"
+      "assets/landing-page-3IuZXQ7A.css"
     ],
     "assets": [
       "assets/lg-C7ze34MH.woff2",

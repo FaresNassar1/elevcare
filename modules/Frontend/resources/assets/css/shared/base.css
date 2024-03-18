@@ -3,7 +3,7 @@
     box-sizing: border-box;
     outline: none;
     -webkit-text-size-adjust: none;
-}
+    line-height: 43px;}
 
 *,
 ::after,

@@ -46,6 +46,12 @@ textarea {
     color: black;
 }
 
-
-
-
+.section-bg-img {
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom:4px solid var(--secondary);
+}

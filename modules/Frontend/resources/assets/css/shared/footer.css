@@ -27,7 +27,9 @@
 .main-footer ul li a{
     font-size: 17px;
     color: #000;
+    font-weight: 600;
 }
-.phone-number{
+.main-footer .phone-number{
     color: var(--secondary);
+    font-weight: 500;
 }
