@@ -1,5 +1,6 @@
 .header {
  position: sticky;
+ z-index: 9999999;
 }
 
 
@@ -48,7 +49,7 @@
     background-color: #f9f9f9;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    width: 180px;
+    width: 208px;
     margin-top: 15px;
 }
 
@@ -79,10 +80,7 @@
 
 }
 
-/*.header.sticky .header-logo img {*/
-/*    height: 50px;*/
-/*}*/
+.dropdown-content li a{
+    font-size: 16px;
 
-/*main menu*/
-
-
+}

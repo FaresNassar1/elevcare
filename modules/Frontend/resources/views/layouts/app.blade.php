@@ -39,10 +39,9 @@
         <div class="container">
             <div class="header-components ">
 
-                    <a href="/ar" title="elevcare" class="header-logo">
-                        <img src="{{ get_logo() }}" height="80"
-                            alt="{{ get_config(" title_$current_locale") }}">
-                    </a>
+                <a href="/ar" title="elevcare" class="header-logo">
+                    <img src="{{ get_logo() }}" height="80" alt="{{ get_config(" title_$current_locale") }}">
+                </a>
 
                 {{-- <nav class="main-menu">
                     {!! $nav !!}
@@ -50,34 +49,36 @@
                 <nav class="main-menu">
                     <ul>
                         <li class="dropdown"><a href="#">المنتجات</a>
-                            <div class="dropdown-content">
-                                <a href="#">المصاعد</a>
-                                <a href="#">السلالم المتحركة والدرج الكهربائي</a>
-                                <a href="#">تكنولوجيا</a>
-                                <a href="#">الشهادات</a>
-                            </div>
+                            <ul class="dropdown-content">
+                                <li><a href="#">المصاعد</a></li>
+                                <li><a href="#">السلالم المتحركة والدرج الكهربائي</a></li>
+                                <li><a href="#">تكنولوجيا</a></li>
+                                <li> <a href="#">الشهادات</a></li>
+                            </ul>
                         </li>
                         <li class="dropdown"><a href="#">الخدمات</a>
 
-                            <div class="dropdown-content">
-                                <a href="#">المبيعات</a>
-                                <a href="#">التركيب</a>
-                                <a href="#">الصيانة</a>
-                            </div>
+                            <ul class="dropdown-content">
+                                <li><a href="#">المبيعات</a></li>
+                                <li><a href="#">التركيب</a></li>
+                                <li><a href="#">الصيانة</a></li>
+                            </ul>
                         </li>
 
                         <li class="dropdown"><a href="#">مشاريع مرجعية</a>
-                            <div class="dropdown-content">
-                                <a href="#">منطقة الشمال</a>
-                                <a href="#">منطقة الوسط</a>
-                                <a href="#">منطقة الجنوب</a>
-                            </div>
+                            <ul class="dropdown-content">
+                                <li> <a href="#">منطقة الشمال</a></li>
+                                <li> <a href="#">منطقة الوسط</a></li>
+                                <li><a href="#">منطقة الجنوب</a></li>
+                            </ul>
                         </li>
                         <li class="dropdown"><a href="#">التسعير</a>
-                            <div class="dropdown-content">
-                                <a href="#"> تسعير المبيعات</a>
-                                <a href="#">تسعير الصيانة </a>
-                            </div>
+                            <ul class="dropdown-content">
+                                <li>
+                                    <a href="#"> تسعير المبيعات</a>
+                                </li>
+                                <li><a href="#">تسعير الصيانة </a></li>
+                            </ul>
                         </li>
                         </li>
                         <li><a href="#">الوظائف</a></li>
@@ -120,7 +121,7 @@
                         <ul>
                             <li><a href="">الخدمات والمنتجات
                                 </a></li>
-                            <li><a href="">  فريقنا
+                            <li><a href=""> فريقنا
 
                                 </a></li>
                             <li><a href=""> اتصل بنا
