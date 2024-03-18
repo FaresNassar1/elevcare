@@ -1,15 +1,14 @@
 .client-item {
-    align-items: center;
     background-color: #fff;
-    flex: 1;
     overflow: hidden;
     padding: 20px 40px;
+    min-height: 288px;
+    margin: 14px 35px;
+
 }
 .Hospital--name{
-margin-top: 10px;
     font-size: 20px;
-    margin: 0;
-}
+    margin: 10px 0px;}
 .Hospital-city{
 
     font-size: 18px;

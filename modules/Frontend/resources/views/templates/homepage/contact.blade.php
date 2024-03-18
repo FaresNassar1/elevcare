@@ -10,61 +10,41 @@
         border-bottom:4px solid var(--secondary);
     }
 </style>
-<section class=" section mv-50 email section-bg-img">
-    <div class="container mail-container ">
-        <div class="form ">
+<section class=" section mv-50  section-bg-img">
+    <div class="container d-flex justify-content-between  align-items-center ">
+        <div class="contact-form ">
             <form >
 
                 <h2>ابقى على تواصل
                 </h2>
-                <input type="text " id="name " name="name " required placeholder="Your Name: ">
+                <input type="text " id="name " name="name " required placeholder="ادخل اسمك ">
 
-                <input type="email " id="email " name="email " required placeholder="Your Email: ">
+                <input type="email " id="email " name="email " required placeholder="البريد الالكتروني ">
 
-                <textarea id="message " name="message " rows="2 " required placeholder="Your Message: "></textarea>
+                <textarea id="message " name="message " rows="2 " required placeholder="اكتب رسالة "></textarea>
 
-                <button style="color: white" class="btn btn-primary " type="submit ">Submit</button>
+                <button style="color: white" class="btn btn-primary " type="submit ">ارسال</button>
             </form>
         </div>
-        <div class="info ">
-            <div class="email-items ff">
-                <h3>ترغب في أن تصبح شريكا؟ عميل محتمل؟ بحاجة إلى مساعدة أو لديك سؤال؟
 
-                </h3>
-                <div class="contact-info ">
-                    <div class="contact-info--title ">معلومات الاتصال
-
-                    </div>
-                    <ul>
-                        <li>
-                            <span> <i class="fa-solid fa-map-location-dot "></i>
-
-
-                            </span>
-                            <h4>السواحرة بالقرب من ابو ديس
-
-                            </h4>
-                        </li>
-                        <li>
-                            <span><i class="fa-solid fa-phone "></i></span>
-                            <h4>(972)-526323058
-
-                            </h4>
-                        </li>
-                        <li>
-                            <span><i class="fa-solid fa-envelope "></i></span>
-                            <h4>info@omdehmedical.com
-
-                            </h4>
-                        </li>
-                    </ul>
-                </div>
-
-
-
+        <div class="section-info">
+            <h2 class="section--subtitle white ">
+                 ترغب في أن تصبح شريكا؟ عميل محتمل؟ بحاجة إلى مساعدة أو لديك سؤال؟
+            </h2>
+            <div class="section-list-title">معلومات الاتصال
             </div>
-
+            <ul class="section-list">
+                <li>استيراد المنتجات الطبية المتميزة</li>
+                <li>تسويق وتوزيع المنتجات الطبية
+                </li>
+                <li>خدمات التدخل للمتخصصين الصحيين
+                </li>
+                <li>الخدمات الاستشارية للمهنيين الصحيين
+                </li>
+            </ul>
         </div>
+
+
 
 
 

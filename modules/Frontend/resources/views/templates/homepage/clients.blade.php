@@ -1,14 +1,16 @@
-<section class="section mv-50">
+<section class="section mv-50 bg-section-gray">
 
     <div class="container text-center  ">
 
         <div class="section-info center">
-            <h2 class="section--title ">THANKS FOR YOUR TRUST
+            <h2 class="section--title ">شكرا لثقتكم
+
 
 
 
             </h2>
-            <h3 class="section--subtitle">Local Clients
+            <h3 class="section--subtitle">العملاء المحليين
+
 
             </h3>
 
@@ -21,11 +23,11 @@
                         <img src="{{ asset('front/assets/images/1c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="Hospital--name ">An-Najah National University Hospital
+                            <p class="Hospital--name ">المستشفى الاهلي
 
 
                             </p>
-                            <h5 class="Hospital-city">Nablus
+                            <h5 class="Hospital-city">الخليل
 
                             </h5>
                         </div>
@@ -36,11 +38,11 @@
                         <img src="{{ asset('front/assets/images/2c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="Hospital--name">Al-Istishari Hospital
+                            <p class="Hospital--name">المستشفى الاستشاري
 
 
                             </p>
-                            <h5 class="Hospital-city">gaza
+                            <h5 class="Hospital-city">غزة
 
                             </h5>
                         </div>
@@ -51,11 +53,11 @@
                         <img src="{{ asset('front/assets/images/3c.jpg') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="Hospital--name">Al-Ahli Hospital
+                            <p class="Hospital--name">مستشفى النجاح الوطني الجامعي
 
 
                             </p>
-                            <h5 class="Hospital-city">Nablus
+                            <h5 class="Hospital-city">نابلس
 
                             </h5>
                         </div>
@@ -66,9 +68,9 @@
                         <img src="{{ asset('front/assets/images/4c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="Hospital--name">An-Najah National University Hospital
+                            <p class="Hospital--name">المستشفى الاهلي
                             </p>
-                            <h5 class="Hospital-city">hebron
+                            <h5 class="Hospital-city">الخليل
 
                             </h5>
                         </div>
@@ -79,11 +81,11 @@
                         <img src="{{ asset('front/assets/images/5c.jpg') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="Hospital--name">Al-Istishari Hospital
+                            <p class="Hospital--name">مستشفى النجاح الوطني الجامعي
 
 
                             </p>
-                            <h5 class="Hospital-city">yafa
+                            <h5 class="Hospital-city">نابلس
 
                             </h5>
                         </div>
@@ -94,9 +96,9 @@
                         <img src="{{ asset('front/assets/images/2c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="Hospital--name">An-Najah National University Hospital
+                            <p class="Hospital--name">المستشفى الاستشاري
                             </p>
-                            <h5 class="Hospital-city">Nablus
+                            <h5 class="Hospital-city">غزة
 
                             </h5>
                         </div>
@@ -107,9 +109,9 @@
                         <img src="{{ asset('front/assets/images/1c.png') }}" alt="client image">
                         <div class="Hospital">
 
-                            <p class="Hospital--name">An-Najah National University Hospital
+                            <p class="Hospital--name">مستشفى النجاح الوطني الجامعي
                             </p>
-                            <h5 class="Hospital-city">Nablus
+                            <h5 class="Hospital-city">نابلس
 
                             </h5>
                         </div>

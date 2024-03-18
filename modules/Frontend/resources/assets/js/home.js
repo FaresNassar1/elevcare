@@ -34,7 +34,7 @@ const isRtl = $("html").attr("dir") === "rtl";
     });
     $(".owl-carousel").owlCarousel({
         rtl: isRtl,
-        margin: 2,
+        margin: 1,
         items: 1,
         dots: true,
         dotsEach: true,

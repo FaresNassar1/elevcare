@@ -38,12 +38,12 @@
     <header class="header">
         <div class="container">
             <div class="header-components ">
-                <div class="default-dir logo">
+
                     <a href="/ar" title="elevcare" class="header-logo">
                         <img src="{{ get_logo() }}" height="80"
                             alt="{{ get_config(" title_$current_locale") }}">
                     </a>
-                </div>
+
                 {{-- <nav class="main-menu">
                     {!! $nav !!}
                 </nav> --}}
@@ -105,32 +105,32 @@
 
                     <div class="col-md-4">
                         <ul>
-                            <li><a href="">Home</a></li>
+                            <li><a href="">الرئيسية</a></li>
                         </ul>
                         <ul>
-                            <li><a href=""> About Us
+                            <li><a href=""> معلومات عنا
                                 </a></li>
                         </ul>
                         <ul>
-                            <li><a href=""> Our Partners
-                                </a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul>
-                            <li><a href="">Services and Products
-                                </a></li>
-                            <li><a href=""> Our Team
-
-                                </a></li>
-                            <li><a href=""> Contact us
-
+                            <li><a href=""> شركاؤنا
                                 </a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <ul>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="">الخدمات والمنتجات
+                                </a></li>
+                            <li><a href="">  فريقنا
+
+                                </a></li>
+                            <li><a href=""> اتصل بنا
+
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li><a href="">اتصال</a></li>
                             <li><a href="">Al-sawhareh near abu deis
                                 </a></li>
                             <li><a href="">(972)-524443395
@@ -144,7 +144,7 @@
         </div>
         <div class="sub-footer">
             <div class="copy-right">
-                ©2024 AL-OMDEH MEDICAL SUPPLIESP Ltd. All Rights Reserved.
+                جميع الحقوق محفوظة © ٢٠٢٤ مؤسسة العمضة للتوريدات الطبية المحدودة.
             </div>
         </div>
     </footer>

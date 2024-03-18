@@ -1,17 +1,13 @@
 .main-slider-item img {
     height: 80vh;
-    /* Adjust this value as needed */
-    width: auto;
-    /* Maintain aspect ratio */
     object-fit: cover;
-    /* Maintain aspect ratio */
 
 }
 
 .main-slider--title {
     font-size: 67px;
     position: absolute;
-    top: 3%;
+    top: 7%;
     right: 50%;
     transform: translate(50%, 50%);
     text-align: center;
@@ -26,7 +22,9 @@
     position: relative;
     overflow: hidden;
 }
-
+.owl-dots{
+    margin-top: 20px;
+}
 .main-slider-item::before {
     content: '';
     position: absolute;
@@ -34,7 +32,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: #00000078;
 }
 
 

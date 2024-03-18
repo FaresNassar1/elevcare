@@ -21,10 +21,10 @@
 }
 
 .section--title {
-    font-size: 15px;
+    font-size: 21px;
     font-weight: 700;
-    color: rgb(234, 157, 34);
-    margin: 20px 0;
+    color: #ea9d22;
+    margin: 14px 0;
     text-transform: capitalize;
 }
 
@@ -40,8 +40,29 @@
 .section--desc {
     font-size: 18px;
     color: rgb(111, 128, 138);
-    margin: 18px 0 0px;
+    margin: 15px 0 0px;
     line-height: 1.8;
     max-width: 885px;
 }
 
+.bg-section-gray{
+
+    background-color: #dbdbdb3d;
+    padding: 50px 0;
+}
+.section-list{
+
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.section-list li{
+    margin-bottom: 12px;
+}
+.section-list-title{
+
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    margin: 8px 26px -7px 0;
+}

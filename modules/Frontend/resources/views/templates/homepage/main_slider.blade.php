@@ -6,7 +6,7 @@
 
                 <div class="container">
                     <h2 class="main-slider--title">
-                        Our delivery services extend to both local and international markets
+                        تمتد خدمات التوصيل لدينا إلى الأسواق المحلية والدولية
 
                     </h2>
                 </div>
@@ -18,7 +18,7 @@
 
                 <div class="container">
                     <h2 class="main-slider--title">
-                        Ready to provide stents, coils, microcatheters, guide wires & more
+                        على استعداد لتوفير الدعامات والملفات والقسطرة الدقيقة وأسلاك التوجيه والمزيد
                     </h2>
 
 
@@ -31,7 +31,7 @@
 
                 <div class="container">
                     <h2 class="main-slider--title">
-                        Our delivery services extend to both local and international markets
+                        تمتد خدمات التوصيل لدينا إلى الأسواق المحلية والدولية
 
                     </h2>
 
@@ -44,7 +44,7 @@
 
                 <div class="container">
                     <h2 class="main-slider--title">
-                        Count on us for punctuality, efficiency, integrity & quality
+                        اعتمد علينا في الالتزام بالمواعيد والكفاءة والنزاهة والجودة
                     </h2>
 
                 </div>

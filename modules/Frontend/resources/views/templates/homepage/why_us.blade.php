@@ -4,13 +4,12 @@
     <div class="container text-center  ">
 
         <div class="section-info center">
-            <h2 class="section--title ">EXPERIENCE YOU CAN TRUST
+            <h2 class="section--title ">تجربة يمكنك الوثوق بها
 
             </h2>
-            <h3 class="section--subtitle">Why Us?
+            <h3 class="section--subtitle">لماذا نحن؟
             </h3>
-            <div class="section--desc">Saving money – is something we would all like to do. Whether you are struggling to
-                manage day to day or earning a six figure salary, saving is something we all think about.
+            <div class="section--desc">توفير المال – هو شيء نود جميعا أن نفعله. سواء كنت تكافح من أجل إدارة الأمور اليومية أو الحصول على راتب مكون من ستة أرقام، فإن الادخار هو شيء نفكر فيه جميعًا.
 
 
             </div>
@@ -24,7 +23,7 @@
                         <div ><img src="{{ asset('front/assets/images/1.png') }}"
                                 alt="why-us-image"></div>
                         <div class="why-us-info">
-                            <div class="why-us--title">Quality & Quantity
+                            <div class="why-us--title">كمية الجودة
 
                             </div>
                         </div>
@@ -35,7 +34,7 @@
                         <div class="why-us-img"><img src="{{ asset('front/assets/images/2.png') }}"
                                 alt="why-us-image"></div>
                         <div class="why-us-info">
-                            <div class="why-us--title">Competitive Prices
+                            <div class="why-us--title">أسعار منافسة
 
                             </div>
                         </div>
@@ -46,7 +45,7 @@
                         <div class="why-us-img"><img src="{{ asset('front/assets/images/3.png') }}"
                                 alt="why-us-image"></div>
                         <div class="why-us-info">
-                            <div class="why-us--title">Licensed Medical Team
+                            <div class="why-us--title">فريق طبي مرخص
 
                             </div>
                         </div>
@@ -57,7 +56,7 @@
                         <div class="why-us-img"><img src="{{ asset('front/assets/images/4.png') }}"
                                 alt="why-us-image"></div>
                         <div class="why-us-info">
-                            <div class="why-us--title">24/7 Services
+                            <div class="why-us--title">خدمات 24/7
 
                             </div>
                         </div>
@@ -68,7 +67,7 @@
                         <div class="why-us-img"><img src="{{ asset('front/assets/images/55.png') }}"
                                 alt="why-us-image"></div>
                         <div class="why-us-info">
-                            <div class="why-us--title">Speed & Punctuality
+                            <div class="why-us--title">السرعة والالتزام بالمواعيد
 
                             </div>
                         </div>

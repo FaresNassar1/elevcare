@@ -3,11 +3,13 @@
     <div class="container text-center  ">
 
         <div class="section-info center">
-            <h2 class="section--title ">EXPERIENCE YOU CAN TRUST
+            <h2 class="section--title ">تجربة يمكنك الوثوق بها
+
 
             </h2>
-            <h3 class="section--subtitle">Products & Services </h3>
-            <div class="section--desc">Distributing & Promoting Premium Medical Products Since 2021
+            <h3 class="section--subtitle">المنتجات والخدمات
+            </h3>
+            <div class="section--desc">توزيع وترويج المنتجات الطبية المتميزة منذ عام 2021
             </div>
 
         </div>
@@ -18,7 +20,7 @@
                     <div class="product">
                         <div class="product-img"><img src="{{ asset('front/assets/images/1.jpg') }}" alt="product-image"></div>
                         <div class="product-info">
-                            <div class="product--title">Les Liquid Embolic Systems(LES)
+                            <div class="product--title">لفائف داخل الأوعية الدموية
                             </div>
                         </div>
                     </div>
@@ -27,7 +29,7 @@
                     <div class="product">
                         <div class="product-img"><img src="{{ asset('front/assets/images/2.jpg') }}" alt="product-image"></div>
                         <div class="product-info">
-                            <div class="product--title">Microcatheters (MC)
+                            <div class="product--title">القسطرة الدقيقة (MC)
                             </div>
                         </div>
                     </div>
@@ -36,7 +38,7 @@
                     <div class="product">
                         <div class="product-img"><img src="{{ asset('front/assets/images/1.jpg') }}" alt="product-image"></div>
                         <div class="product-info">
-                            <div class="product--title">Flow Diverter stents
+                            <div class="product--title">مسترد الدعامات
                             </div>
                         </div>
                     </div>
@@ -45,7 +47,7 @@
                     <div class="product">
                         <div class="product-img"><img src="{{ asset('front/assets/images/4.jpg') }}" alt="product-image"></div>
                         <div class="product-info">
-                            <div class="product--title">Stent Retriever
+                            <div class="product--title">أنظمة الصمة السائلة (LES)
                             </div>
                         </div>
                     </div>
@@ -54,7 +56,7 @@
                     <div class="product">
                         <div class="product-img"><img src="{{ asset('front/assets/images/5.png') }}" alt="product-image"></div>
                         <div class="product-info">
-                            <div class="product--title">Les Liquid Embolic Systems(LES)
+                            <div class="product--title">القسطرة الدقيقة (MC)
                             </div>
                         </div>
                     </div>
@@ -63,8 +65,8 @@
                     <div class="product">
                         <div class="product-img"><img src="{{ asset('front/assets/images/6.jpg') }}" alt="product-image"></div>
                         <div class="product-info">
-                            <div class="product--title">Endovascular Coil
-                                r</div>
+                            <div class="product--title">الدعامات المحولة للتدفق
+                                </div>
                         </div>
                     </div>
                 </div>

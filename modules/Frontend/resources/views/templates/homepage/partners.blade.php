@@ -3,10 +3,11 @@
     <div class="container text-center  ">
 
         <div class="section-info center">
-            <h2 class="section--title ">THANKS FOR YOUR INTEGRITY
+            <h2 class="section--title ">شكرا لنزاهتك
+
 
             </h2>
-            <h3 class="section--subtitle">International Partners
+            <h3 class="section--subtitle">الشركاء الدوليون
 
             </h3>
 
