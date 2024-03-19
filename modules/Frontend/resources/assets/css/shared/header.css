@@ -17,20 +17,15 @@
     align-items: center;
 }
 
-.main-menu ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin-left: 20px;
-}
 
-.main-menu ul li {
+.main-menu li {
     margin-left: 30px;
+    list-style: none;
 }
 
-.main-menu ul li a {
+.main-menu li a {
     text-transform: capitalize;
-    color: var(--font-primary-color);
+    color: black ;
     font-size: 20px;
     font-weight: 500;
 }
@@ -41,7 +36,14 @@
 .header-logo img {
     /*width: auto !important;*/
     display: block;
+    position: relative;
 }
+.header-logo span{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    top: 50px;
+    right: 8px;}
 
 .main-menu .dropdown-content {
     padding: 16px 10px;

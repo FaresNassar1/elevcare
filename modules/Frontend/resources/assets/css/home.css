@@ -13,9 +13,11 @@
 @import "./sections/services.css";
 @import "./sections/why-us.css";
 @import "./sections/clients.css";
+@import "./sections/about-us.css";
 @import "./sections/partners.css";
 @import "./sections/contact.css";
 @import "../fonts/webfonts/stylesheet.css";
+@import "../iconmoon/style.css";
 
 
 /*@import "./items/main-slider.css";*/

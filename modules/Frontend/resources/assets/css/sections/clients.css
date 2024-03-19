@@ -2,6 +2,7 @@
     overflow: hidden;
     padding: 12px;
     min-height: 288px;
+    width: 100%;
 }
 
 .client--name {

@@ -1,0 +1,10 @@
+.section-img {
+    position: relative;
+}
+
+.section-img img {
+    width: 100%;
+    border-radius: var(--border-radius);
+    object-fit: cover;
+    max-height: 620px;
+}

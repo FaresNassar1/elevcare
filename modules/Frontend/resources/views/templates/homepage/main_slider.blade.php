@@ -1,54 +1,24 @@
 <section class="section">
     <div class="owl-main owl-carousel owl-theme owl-dots-style">
-        <div class="item">
-            <div class="main-slider-item">
-                <img src="{{ asset('front/assets/images/slide1.jpg') }}" alt="">
+        {{-- {{dd($slide)}} --}}
 
-                <div class="container">
-                    <h2 class="main-slider--title">
-                        تمتد خدمات التوصيل لدينا إلى الأسواق المحلية والدولية
+        @foreach ($slide as $item)
+            <div class="item">
+                <div class="main-slider-item">
+                    <img src="{{ upload_url($item['image']) }}" alt="">
+                    <div class="container_slider_title">
+                        <div class="container">
+                            @if (!empty($item['title']))
+                                <h2 class="main-slider--title">
+                                    {{ $item['title'] }}
 
-                    </h2>
+                                </h2>
+                            @endif
+                        </div>
+                    </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="main-slider-item">
-                <img src="{{ asset('front/assets/images/slide2.jpg') }}" alt="">
+        @endforeach
 
-                <div class="container">
-                    <h2 class="main-slider--title">
-                        على استعداد لتوفير الدعامات والملفات والقسطرة الدقيقة وأسلاك التوجيه والمزيد
-                    </h2>
-
-
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="main-slider-item">
-                <img src="{{ asset('front/assets/images/slide3.jpg') }}" alt="">
-
-                <div class="container">
-                    <h2 class="main-slider--title">
-                        تمتد خدمات التوصيل لدينا إلى الأسواق المحلية والدولية
-
-                    </h2>
-
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="main-slider-item">
-                <img src="{{ asset('front/assets/images/slide4.jpg') }}" alt="">
-
-                <div class="container">
-                    <h2 class="main-slider--title">
-                        اعتمد علينا في الالتزام بالمواعيد والكفاءة والنزاهة والجودة
-                    </h2>
-
-                </div>
-            </div>
-        </div>
     </div>
 </section>

@@ -41,33 +41,13 @@
 
                 <a href="/ar" title="elevcare" class="header-logo">
                     <img src="{{ get_logo() }}" height="80" alt="{{ get_config(" title_$current_locale") }}">
+                    <span class="logo-text">شركة إيليف كير للمصاعد والادراج الكهربائية                    </span>
+
                 </a>
 
-                {{-- <nav class="main-menu">
-                    {!! $nav !!}
-                </nav> --}}
-                <nav class="main-menu">
-                    <ul>
-                        <li class="dropdown"><a href="#">المنتجات</a>
-                            <ul class="dropdown-content">
-                                <li><a href="#">المصاعد</a></li>
-                                <li><a href="#">السلالم المتحركة والدرج الكهربائي</a></li>
-                                <li><a href="#">تكنولوجيا</a></li>
-                                <li> <a href="#">الشهادات</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="#">الخدمات</a>
+                <nav  class="main-menu">
 
-                            <ul class="dropdown-content">
-                                <li><a href="#">المبيعات</a></li>
-                                <li><a href="#">التركيب</a></li>
-                                <li><a href="#">الصيانة</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">من نحن</a></li>
-                        <li><a href="#">الوظائف</a></li>
-                        <li><a href="#">التواصل</a></li>
-                    </ul>
+                        {!! $nav !!}
                 </nav>
 
 
@@ -120,6 +100,11 @@
                                 </a></li>
                             <li><a class="phone-number" href="">(972)-524443395
                                 </a></li>
+                                <ul class="list-social-icons">
+                                    @foreach(getSocialMenu() as $social)
+                                    <li><a href="{{ $social['url'] }}" title="{{ $social['title'] }}" target="_blank" rel="noopener noreferrer" class="icons social-icons"><span class="icon-{{ $social['title'] }}"></span></a></li>
+                                    @endforeach
+                                </ul>
                         </ul>
 
                     </div>

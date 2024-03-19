@@ -34,6 +34,22 @@
       "_jquery-m0X-EPcw.js"
     ]
   },
+  "modules/Frontend/resources/assets/iconmoon/fonts/icomoon.eot": {
+    "file": "assets/icomoon-CsZlNVmK.eot",
+    "src": "modules/Frontend/resources/assets/iconmoon/fonts/icomoon.eot"
+  },
+  "modules/Frontend/resources/assets/iconmoon/fonts/icomoon.svg": {
+    "file": "assets/icomoon-CmoUEKBN.svg",
+    "src": "modules/Frontend/resources/assets/iconmoon/fonts/icomoon.svg"
+  },
+  "modules/Frontend/resources/assets/iconmoon/fonts/icomoon.ttf": {
+    "file": "assets/icomoon-DgnMrg-j.ttf",
+    "src": "modules/Frontend/resources/assets/iconmoon/fonts/icomoon.ttf"
+  },
+  "modules/Frontend/resources/assets/iconmoon/fonts/icomoon.woff": {
+    "file": "assets/icomoon-Conlkonw.woff",
+    "src": "modules/Frontend/resources/assets/iconmoon/fonts/icomoon.woff"
+  },
   "modules/Frontend/resources/assets/js/app.js": {
     "file": "assets/app-CwgAGVUZ.js",
     "src": "modules/Frontend/resources/assets/js/app.js",
@@ -55,7 +71,7 @@
     ]
   },
   "modules/Frontend/resources/assets/js/home.js": {
-    "file": "assets/home-CqJL-Jq4.js",
+    "file": "assets/home-CPUCXJTj.js",
     "src": "modules/Frontend/resources/assets/js/home.js",
     "isEntry": true,
     "imports": [
@@ -66,7 +82,13 @@
       "__commonjsHelpers-C4iS2aBk.js"
     ],
     "css": [
-      "assets/home-cexGEFEx.css"
+      "assets/home-DBUUyD7g.css"
+    ],
+    "assets": [
+      "assets/icomoon-CsZlNVmK.eot",
+      "assets/icomoon-DgnMrg-j.ttf",
+      "assets/icomoon-Conlkonw.woff",
+      "assets/icomoon-CmoUEKBN.svg"
     ]
   },
   "modules/Frontend/resources/assets/js/inner.js": {
@@ -81,7 +103,7 @@
     ]
   },
   "modules/Frontend/resources/assets/js/landing-page.js": {
-    "file": "assets/landing-page-Dm-cfHvk.js",
+    "file": "assets/landing-page-C9Q7eek0.js",
     "src": "modules/Frontend/resources/assets/js/landing-page.js",
     "isEntry": true,
     "imports": [
@@ -91,7 +113,7 @@
       "__commonjsHelpers-C4iS2aBk.js"
     ],
     "css": [
-      "assets/landing-page-D31dqFuU.css"
+      "assets/landing-page-Cem2BSPV.css"
     ],
     "assets": [
       "assets/lg-C7ze34MH.woff2",

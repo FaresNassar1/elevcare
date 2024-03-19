@@ -4,10 +4,13 @@
 
     }
 </style>
+@php
+    $listcontact = $part->json_metas['repeater'];
+@endphp
 <section class=" section mv-50  section-bg-img">
     <div class="container d-flex justify-content-between  align-items-center ">
         <div class="contact-form ">
-            <form >
+            <form>
 
                 <h2>ابقى على تواصل
                 </h2>
@@ -22,19 +25,20 @@
         </div>
 
         <div class="section-info white">
-            <h2 class="section--subtitle  ">
-                 ترغب في أن تصبح شريكا؟ عميل محتمل؟ بحاجة إلى مساعدة أو لديك سؤال؟
-            </h2>
-            <div class="section-list-title">معلومات الاتصال
-            </div>
+            @if (!empty($part->title))
+                <h2 class="section--subtitle  ">
+                    {{ $part->title }}
+                </h2>
+            @endif
+            @if (!empty($part->subtitle))
+                <div class="section-list-title">{{$part->subtitle}}
+                </div>
+            @endif
             <ul class="section-list">
-                <li>استيراد المنتجات الطبية المتميزة</li>
-                <li>تسويق وتوزيع المنتجات الطبية
-                </li>
-                <li>خدمات التدخل للمتخصصين الصحيين
-                </li>
-                <li>الخدمات الاستشارية للمهنيين الصحيين
-                </li>
+                @foreach ($listcontact as $item)
+            <li><img  src="{{ upload_url($item['image']) }}" alt="Icon">{{$item['title']}}</li>
+                @endforeach
+
             </ul>
         </div>
 

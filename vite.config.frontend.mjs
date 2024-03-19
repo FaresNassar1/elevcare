@@ -21,6 +21,7 @@ export default defineConfig({
         cp({
             targets: [
                 {src: FrontEndPath + '/fonts', dest: cpOutputDir + '/fonts', flatten: false},
+                {src: FrontEndPath + '/iconmoon', dest: cpOutputDir + '/iconmoon', flatten: false},
                 {src: FrontEndPath + '/images', dest: cpOutputDir + '/images'},
             ]
         })

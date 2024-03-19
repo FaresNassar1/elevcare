@@ -9,10 +9,39 @@
                 }
             }
         },
-        "contact": {
-            "label": "Contact",
-            "view": "theme::templates.contact"
+
+        "products_and_services": {
+            "label": "products_and_services",
+            "view": "frontend::templates.homepage.products_and_services"
+        },
+
+        "services": {
+            "label": "Services",
+            "view": "frontend::templates.homepage.services"
+        },
+        "why_us": {
+            "label": "Why Us ",
+            "view": "frontend::templates.homepage.why_us"
+        },
+        "clients": {
+            "label": "Clients",
+            "view": "frontend::templates.homepage.clients"
+        },
+        "partners": {
+            "label": "Partners",
+            "view": "frontend::templates.homepage.partners"
+        },
+        "contacts": {
+            "label": "ContactUs",
+            "view": "frontend::templates.homepage.contact"
         }
+        ,
+        "aboutUs": {
+            "label": "aboutUs",
+            "view": "frontend::templates.homepage.aboutUs"
+        }
+
+
     },
     "nav_menus": {
         "primary": {

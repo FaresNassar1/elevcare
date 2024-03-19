@@ -19,14 +19,14 @@
         }
     @endphp
 
-    <li @if(!empty($li_class)) class="{{ $li_class }}" @endif>
+    <li @if(!empty($li_class)) class="dropdown" @endif>
         @if(!empty($item['link']))
             <a href="{{ $item['link'] }}" title="{{ $item['label'] }}" class="item">{{ $item['label'] }}</a>
         @else
             <span class="item">{{ $item['label'] }}</span>
         @endif
         @if (isset($item['children']) and !empty($item['children']))
-            <ul class="dropdown-menu list-plain">
+            <ul class="dropdown-content list-plain">
                 @foreach ($item['children'] as $child)
                     @include('frontend::partials.menu_item', ['items' => [$child], 'level' => 'sub'])
                 @endforeach

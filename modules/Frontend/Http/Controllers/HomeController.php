@@ -37,18 +37,15 @@ class HomeController extends Controller
                 ->where("lang", app()->getLocale())->first();
         });
 
-        $homepageBlocks = Cache::remember("home-blocks" . app()->getLocale(), $this->cacheTime, function () use ($homepage) {
-            // $pageID = $homepage->id;
-            // return Post::published()
-            //     ->where(function ($query) use ($pageID) {
-            //         $query->where('json_metas->parent', $pageID)
-            //             ->orWhereJsonContains('json_metas->pages', "$pageID");
-            //     })
-            //     ->orderBy('display_order', 'asc')
-            //     ->orderBy('date', 'desc')
-            //     ->get();
+        $homepages = Cache::remember("home-" . app()->getLocale(), $this->cacheTime, function () {
+            return Post::where('type', 'pages')
+                ->whereJsonContains('json_metas->parent', '8')
+                ->where('status', Post::STATUS_PUBLISH)
+                ->where('lang', app()->getLocale())
+                ->orderBy('display_order')
+                ->orderBy('date')
+                ->get();
         });
-
-        return view('frontend::home', compact('mainSlider', 'homepageBlocks'));
+        return view('frontend::home', compact('mainSlider', 'homepages'));
     }
 }

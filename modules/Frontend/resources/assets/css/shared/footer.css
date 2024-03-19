@@ -3,7 +3,7 @@
 
 }
 .sub-footer {
-    padding: 15px 0;
+    padding: 13px 0;
     background-color: var(--secondary);
     display: flex;
     justify-content: center
@@ -33,3 +33,21 @@
     color: var(--secondary);
     font-weight: 500;
 }
+.list-social-icons{
+    display: flex;
+    align-items: baseline;
+}
+.list-social-icons  > *:not(:first-child) {
+    margin-right: 10px;
+  }
+
+
+  .list-social-icons li span{
+
+    font-size: 13px;
+    padding: 10px;
+    color: white;
+    background-color: var(--gold-color);
+    border-radius: var(--border-radius);
+
+  }

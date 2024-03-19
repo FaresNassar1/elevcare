@@ -1,26 +1,29 @@
 @extends('frontend::layouts.app')
 
 @section('content')
-
-    <h1 id="homepage-title">{{ get_config("sitename_".app()->getLocale()) }}</h1>
-    <style nonce="{{ csp_nonce() }}">#homepage-title {
+    <h1 id="homepage-title">{{ get_config('sitename_' . app()->getLocale()) }}</h1>
+    <style nonce="{{ csp_nonce() }}">
+        #homepage-title {
             display: none;
-        }</style>
+        }
+    </style>
 
-        @include('frontend::templates.homepage.main_slider')
-        @include('frontend::templates.homepage.products_and_services')
-        @include('frontend::templates.homepage.services')
-        @include('frontend::templates.homepage.why_us')
-        @include('frontend::templates.homepage.clients')
-        @include('frontend::templates.homepage.partners')
-        @include('frontend::templates.homepage.contact')
+    @include('frontend::templates.homepage.main_slider', ['slide' => $mainSlider])
+    {{-- @include('frontend::templates.homepage.products_and_services')
+    @include('frontend::templates.homepage.services')
+    @include('frontend::templates.homepage.partners')
+    @include('frontend::templates.homepage.contact') --}}
+    {{-- @include('frontend::templates.homepage.clients') --}}
 
 
-    @if(!empty($homepageBlocks))
-        @foreach($homepageBlocks as $block)
-            @if (!empty($block->json_metas['ctemplate']))
-                @include('frontend::templates.homepage.'.$block->json_metas['ctemplate'],['block'=>$block])
+
+    @foreach ($homepages as $homepage)
+        @if (!empty($homepage))
+            @if ($homepage->json_metas['ctemplate'] != null)
+                @include('frontend::templates.homepage.' . $homepage->json_metas['ctemplate'], [
+                    'part' => $homepage,
+                ])
             @endif
-        @endforeach
-    @endif
+        @endif
+    @endforeach
 @endsection
