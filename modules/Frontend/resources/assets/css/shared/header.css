@@ -45,7 +45,7 @@
     top: 50px;
     right: 8px;}
 
-.main-menu .dropdown-content {
+.dropdown-content {
     padding: 16px 10px;
     display: none;
     position: absolute;
@@ -55,7 +55,7 @@
     width: 200px;
 }
 
-.main-menu .dropdown-content a {
+ .dropdown-content a {
     display: block;
     padding: 10px;
     color: #333;
@@ -65,13 +65,13 @@
 }
 
 
-.main-menu .dropdown-content a:hover {
+ .dropdown-content a:hover {
     transform: scale(0.2.1);
     border-right: solid var(--primary) 3px;
     background-color: #c6c6c624;
 }
 
-.main-menu .dropdown:hover .dropdown-content {
+ .dropdown:hover .dropdown-content {
     display: block;
     animation: vibration 0.4s ease;
 
@@ -79,5 +79,17 @@
 
 .dropdown-content li a {
     font-size: 16px;
+
+}
+.dropdown span
+{
+    color: var(--primary);
+    font-size: 31px;
+    transition: all 0.2s;
+}
+.dropdown span:hover{
+
+color: rgb(151, 72, 72);
+
 
 }

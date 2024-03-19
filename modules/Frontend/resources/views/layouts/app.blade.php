@@ -41,17 +41,23 @@
 
                 <a href="/ar" title="elevcare" class="header-logo">
                     <img src="{{ get_logo() }}" height="80" alt="{{ get_config(" title_$current_locale") }}">
-                    <span class="logo-text">شركة إيليف كير للمصاعد والادراج الكهربائية                    </span>
+                    <span class="logo-text">شركة إيليف كير للمصاعد والادراج الكهربائية </span>
 
                 </a>
 
-                <nav  class="main-menu">
+                <nav class="main-menu">
 
-                        {!! $nav !!}
+                    {!! $nav !!}
                 </nav>
 
+                <li class="dropdown"><a href="#"><span class=" icon-sphere
+                    "></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="http://127.0.0.1:8000/ar">Arabic</a></li>
+                        <li><a href="http://127.0.0.1:8000/en">English</a></li>
 
-                <a class="btn btn-primary nav-btn" href="">تسجيل الدخول</a>
+                    </ul>
+                </li>
 
             </div>
         </div>
@@ -100,11 +106,13 @@
                                 </a></li>
                             <li><a class="phone-number" href="">(972)-524443395
                                 </a></li>
-                                <ul class="list-social-icons">
-                                    @foreach(getSocialMenu() as $social)
-                                    <li><a href="{{ $social['url'] }}" title="{{ $social['title'] }}" target="_blank" rel="noopener noreferrer" class="icons social-icons"><span class="icon-{{ $social['title'] }}"></span></a></li>
-                                    @endforeach
-                                </ul>
+                            <ul class="list-social-icons">
+                                @foreach (getSocialMenu() as $social)
+                                    <li><a href="{{ $social['url'] }}" title="{{ $social['title'] }}" target="_blank"
+                                            rel="noopener noreferrer" class="icons social-icons"><span
+                                                class="icon-{{ $social['title'] }}"></span></a></li>
+                                @endforeach
+                            </ul>
                         </ul>
 
                     </div>

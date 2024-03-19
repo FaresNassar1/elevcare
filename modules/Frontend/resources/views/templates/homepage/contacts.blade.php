@@ -1,6 +1,6 @@
 <style nonce="{{ csp_nonce() }}">
     .section-bg-img {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.353)), url('{{ asset('front/assets/images/blure2.jpg') }}');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.353)), url('{{ upload_url($part['thumbnail']) }}');
 
     }
 </style>
