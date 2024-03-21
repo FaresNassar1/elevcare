@@ -2,7 +2,7 @@
     "templates": {
         "home": {
             "label": "Home",
-            "view": "theme::templates.home",
+            "view": "frontend::layouts.app",
             "blocks": {
                 "content": {
                     "label": "Content"
@@ -34,14 +34,39 @@
         "contacts": {
             "label": "ContactUs",
             "view": "frontend::templates.homepage.contact"
-        }
-        ,
+        },
         "aboutUs": {
             "label": "aboutUs",
             "view": "frontend::templates.homepage.aboutUs"
+        },
+        "inner_aboutUs": {
+            "label": "inner_aboutUs",
+            "view": "frontend::templates.innerpage.inner-aboutUs"
+        },
+        "inner_contact": {
+            "label": "inner_contact",
+            "view": "frontend::templates.innerpage.inner_contact"
+        },
+        "inner_ourpartners": {
+            "label": "inner_ourpartners",
+            "view": "frontend::templates.innerpage.inner_ourpartners"
+        },
+        "inner_products_and_services": {
+            "label": "inner_products_and_services",
+            "view": "frontend::templates.innerpage.inner_products_and_services"
+        },
+        "product_inner": {
+            "label": "product_inner",
+            "view": "frontend::templates.innerpage.product_inner"
+        },
+        "why_inner": {
+            "label": "why_inner",
+            "view": "frontend::templates.innerpage.why_inner"
+        },
+        "form-section": {
+            "label": "form-section",
+            "view": "frontend::templates.innerpage.form-section"
         }
-
-
     },
     "nav_menus": {
         "primary": {
@@ -54,42 +79,27 @@
     "landing_pages": {
         "plain_content": {
             "label": "plain_content",
-            "fields": [
-                "editor",
-                "thumbnail"
-            ]
+            "fields": ["editor", "thumbnail"]
         },
         "three_boxes": {
             "label": "three_boxes",
-            "fields": [
-                "items_repeater",
-                "is_slider"
-            ]
+            "fields": ["items_repeater", "is_slider"]
         },
         "images_list": {
             "label": "images_list",
-            "fields": [
-                "images"
-            ]
+            "fields": ["images"]
         },
         "form_block": {
             "label": "form_block",
-            "fields": [
-                "form_block",
-                "thumbnail"
-            ]
+            "fields": ["form_block", "thumbnail"]
         },
         "video": {
             "label": "video",
-            "fields": [
-                "youtube_url"
-            ]
+            "fields": ["youtube_url"]
         },
         "collapse_block": {
             "label": "collapse_block",
-            "fields": [
-                "items_repeater"
-            ]
+            "fields": ["items_repeater"]
         }
     }
 }

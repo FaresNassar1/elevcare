@@ -67,9 +67,8 @@
         @yield('content')
     </main>
     <span class="scroll-top"><i class="fas fa-angle-double-up"></i></span>
-
-    <footer class="footer section-content">
-        <div class="main-footer">
+    <footer class="footer section-content @if (!is_home()) border-top @endif">
+        <div class="main-footer ">
             <div class="container">
 
                 <div class="row">

@@ -1,13 +1,14 @@
 <style nonce="{{ csp_nonce() }}">
     .bg-services {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.353)), url('{{ upload_url($part['thumbnail']) }}');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('{{ upload_url($part['thumbnail']) }}');
 
     }
 </style>
 @php
     $listService = $part->json_metas['repeater'];
 @endphp
-<section class="section mv-50  bg-services">
+<section class="section pv-50  bg-services">
+
     <div class="container">
         <div class="section-info white">
             @if (!empty($part->title))

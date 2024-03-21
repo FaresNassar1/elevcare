@@ -9,19 +9,13 @@
 .section-info {
     display: flex;
     flex-direction: column;
-    text-align: start;
-    margin: 40px;
+    margin-top: 30px;
 
 }
 
-.section-info.center {
-    align-items: center;
-    text-align: center;
-    margin: 0;
-}
 
 .section--title {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--gold-color);
     text-transform: capitalize;
@@ -31,7 +25,7 @@
     font-size: 32px;
     font-weight: 700;
     text-transform: capitalize;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 .section--desc {
@@ -40,10 +34,7 @@
     margin: 15px 0 0px;
     line-height: 1.8;
 }
-.des-width{
-    max-width: 52%;
 
-}
 .bg-section-gray {
 
     background-color: #dbdbdb3d;
@@ -71,10 +62,10 @@
 }
 
 .section-list-title {
-    font-size: 30px;
-    color: #fff;
-    font-weight: 800;
-    margin: 13px 28px 9px 0;
+        font-size: 25px;
+        color: #fff;
+        font-weight: 800;
+        margin: 13px 20px 9px 0;
 }
 .call {
     position: fixed;
@@ -95,14 +86,18 @@
 
 .call-text {
     color: black;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 900;
 }
 
 .call span {
     display: inline-block;
-    font-size: 23px;
+    font-size: 25px;
     border-radius: 50%;
     color: var(--primary);
     margin-left: 20px;
+}
+.whats{
+    display: flex;
+    justify-content: center;
 }

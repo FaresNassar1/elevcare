@@ -68,9 +68,9 @@ class PostController extends Controller
             $posts           = [];
             $pagination_page = null;
         }
+        $subject = 'Some value'; // Define or initialize $subject
 
         $metas = $main_post->json_metas['metas'];
-
         return view('frontend::posts.' . $page_type, compact('posts', 'sub_pages', 'main_post', 'pagination_page', 'template', 'metas'));
     }
 }

@@ -4,7 +4,6 @@
     @include('frontend::Components.meta.meta', ['metas' => $metas])
 @endsection
 
-
 @section('content')
     <div class="inner-page">
         <div class="inner-body">

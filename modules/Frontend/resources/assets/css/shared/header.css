@@ -76,7 +76,10 @@
     animation: vibration 0.4s ease;
 
 }
-
+.whats{
+    display: flex;
+    justify-content: center;
+}
 .dropdown-content li a {
     font-size: 16px;
 

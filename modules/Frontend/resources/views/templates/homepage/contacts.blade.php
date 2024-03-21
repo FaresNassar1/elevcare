@@ -1,6 +1,6 @@
 <style nonce="{{ csp_nonce() }}">
     .section-bg-img {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.353)), url('{{ upload_url($part['thumbnail']) }}');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.353)), url('{{ upload_url($part['thumbnail']) }}');
 
     }
 </style>
@@ -12,7 +12,7 @@
         <div class="contact-form ">
             <form>
 
-                <h2>ابقى على تواصل
+                <h2>كن شريكًا معنا
                 </h2>
                 <input type="text " id="name " name="name " required placeholder="ادخل اسمك ">
 
@@ -20,15 +20,20 @@
 
                 <textarea id="message " name="message " rows="2 " required placeholder="اكتب رسالة "></textarea>
 
-                <button style="color: white" class="btn btn-primary " type="submit ">ارسال</button>
+                <button style="color: white" class="btn btn-primary " type="submit ">اتصل بنا الآن</button>
             </form>
         </div>
 
-        <div class="section-info white">
+        <div class="section-info white ms-40">
             @if (!empty($part->title))
                 <h2 class="section--subtitle  ">
                     {{ $part->title }}
                 </h2>
+            @endif
+            @if (!empty($part->description))
+                <div class="section--desc white ">
+                    {{ $part->description }}
+                </div>
             @endif
             @if (!empty($part->subtitle))
                 <div class="section-list-title">{{$part->subtitle}}

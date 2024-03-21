@@ -1,10 +1,10 @@
 @php
     $clientItem = $part->json_metas['repeater'];
 @endphp
-<section class="section pv-50 bg-section-gray">
+<section class="section pv-50 center bg-section-gray">
 
-    <div class="container text-center  ">
-        <div class="section-info center">
+    <div class="container">
+        <div class="section-info ">
             @if (!empty($part->title))
                 <div class="section--title ">{{ $part->title }}
                 </div>

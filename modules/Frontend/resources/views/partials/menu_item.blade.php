@@ -1,7 +1,6 @@
 @php
     $level = isset($level) ? $level : 'top';
 @endphp
-
 @foreach ($items as $item)
     @php
         $li_class = '';

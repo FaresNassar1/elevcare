@@ -1,0 +1,19 @@
+@import "./shared/vars.css";
+@import "./shared/base.css";
+@import "./shared/grids.css";
+@import "./shared/header.css";
+@import "./shared/footer.css";
+@import "./shared/buttons.css";
+@import "./items/section.css";
+@import "./shared/shared-page.css";
+@import "../fonts/webfonts/stylesheet.css";
+@import "../iconmoon/style.css";
+@import "../css/inner-page/inner-header.css";
+@import "../css/inner-page/inner-about-us.css";
+@import "../css/inner-page/inner-product.css";
+@import "../css/inner-page/inner-why-us.css";
+@import "../css/inner-page/inner-contact.css";
+@import "../css/inner-page/inner-contact.css";
+
+@import "./sections/partners.css";
+@import "./sections/product.css";

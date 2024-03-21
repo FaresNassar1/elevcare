@@ -1,11 +1,11 @@
 @php
     $whyitem = $part->json_metas['repeater'];
 @endphp
-<section class="section mv-50">
+<section class="section mv-50 center">
 
-    <div class="container text-center  ">
+    <div class="container  ">
 
-        <div class="section-info center">
+        <div class="section-info ">
             @if (!empty($part->title))
                 <div class="section--title ">{{ $part->title }}
 
@@ -16,7 +16,7 @@
                 </h3>
             @endif
             @if (!empty($part->description))
-                <div class="section--desc des-width">{{ $part->description }}
+                <div class="section--desc ">{{ $part->description }}
                 </div>
             @endif
         </div>

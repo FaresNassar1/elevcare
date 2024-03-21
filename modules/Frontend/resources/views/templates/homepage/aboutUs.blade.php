@@ -16,6 +16,8 @@
                     </div>
                     @endif
                 </div>
+                <a class="btn btn-primary mt-3 " href="{{$part->external_link}}"> من نحن </a>
+
             </div>
             <div class="col-md-6 ">
                 <div class="section-img">

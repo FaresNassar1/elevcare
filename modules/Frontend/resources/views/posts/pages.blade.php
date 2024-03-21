@@ -1,35 +1,40 @@
 @extends('frontend::layouts.app')
-@section('title',get_page_title($main_post->title,$metas['meta_title_keywords']))
+@section('title', get_page_title($main_post->title, $metas['meta_title_keywords']))
 @section('metas')
     @include('frontend::Components.meta.meta', ['metas' => $metas])
 @endsection
-
-
 @section('content')
     <div class="inner-page">
         <div class="inner-body">
-            <div class="container">
+            @if (!empty($main_post->title))
+                <div class="inner-body-title">
+                    @include('frontend::partials.header-inner-page', [
+                        'title' => $main_post->title,
+                        'img' => $main_post->thumbnail,
+                    ])
+
+                </div>
+            @endif
                 <div class="inner-body-content">
-                    @if (!empty($main_post->title))
-                        <div class="inner-body-title">
-                            {!! $main_post->title !!}
-                            page
-                        </div>
-                    @endif
-                    @if (!empty($main_post->subtitle))
+
+                    {{-- @if (!empty($main_post->subtitle))
                         <div class="inner-body-subtitle">
                             {!! $main_post->subtitle !!}
                         </div>
-                    @endif
-
-                    @if (!empty($main_post->content))
+                    @endif --}}
+<div class="container"> @if (!empty($main_post->content))
                         <div class="inner-body-desc" id="content-form-builder">
                             {!! $main_post->content !!}
                         </div>
                     @endif
-                    {{-- {{ paginate_links($pagination_page, 'frontend::partials.pagination') }} --}}
+</div>
+
+                    @if (!empty($template))
+                        @include('frontend::templates.innerpage.' . $main_post->json_metas['ctemplate'], [
+                            'content' => $main_post,
+                        ])
+                    @endif
                 </div>
-            </div>
         </div>
     </div>
 

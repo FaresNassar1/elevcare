@@ -27,12 +27,19 @@ class FrontendServiceProvider extends ServiceProvider
                 'theme_location' => 'primary',
                 'item_view' => 'frontend::partials.menu_item',
             ]);
+            $footer = jw_nav_menu([
+                'container_before' => '',
+                'container_after' => '',
+                'theme_location' => 'secondary',
+                'item_view' => 'frontend::partials.menu_item',
+            ]);
+
 
             $fbAppId = get_config('fb_app_id');
             $googleAnalytics = get_config('google_analytics');
             $bingKey = get_config('bing_verify_key');
             $googleKey = get_config('google_verify_key');
-            $view->with(compact('fbAppId', 'googleAnalytics', 'bingKey', 'googleKey', 'nav','current_locale'));
+            $view->with(compact('fbAppId', 'googleAnalytics', 'bingKey', 'googleKey', 'footer','nav','current_locale'));
         });
 
         // Share current locale and locales data with 'frontend::partials.language_switcher' view

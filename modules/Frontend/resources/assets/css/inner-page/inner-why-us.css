@@ -1,0 +1,20 @@
+.why-us{
+    display: flex;
+    padding: 25px 0px;
+}
+.why-us img{
+    max-width: 50px;
+    margin-top: 15px;
+
+}
+.why-us--title
+{
+color: black;
+font-size: 18px;
+}
+
+.why-us-info{
+    text-align: start;
+    margin-right: 20px;
+
+}
