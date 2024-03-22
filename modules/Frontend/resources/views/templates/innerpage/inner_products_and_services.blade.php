@@ -35,7 +35,7 @@
 
                 </div>
                 @if ($item->json_metas['ctemplate']=='product_inner')
-                <a class="btn btn-primary inner-btn" href="">تقديم الطلب
+                <a class="btn btn-primary inner-btn" href="">تواصل معنا
                 </a>
 
                 @endif

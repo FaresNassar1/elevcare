@@ -21,11 +21,12 @@
 
 .product--title {
 
-    font-size: 22px;
+    font-size: 19px;
 }
-.product--subtitle{
+.product--desc{
     font-size: 16px;
-}
+    color: rgb(111, 128, 138);
+    line-height: 1.8;}
 .product-info {
     margin-top: 10px;
 

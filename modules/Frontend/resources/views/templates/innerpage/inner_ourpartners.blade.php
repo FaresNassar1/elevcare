@@ -34,7 +34,7 @@ $posts = get_page_posts($content->id);
 
 
             </div>
-            <a class="btn btn-primary mt-3 " href="">مهتمة بمنتجاتهم
+            <a class="btn btn-primary mt-2 " href="">مهتمة بمنتجاتهم
 ?            </a>
         </div>
     </div>

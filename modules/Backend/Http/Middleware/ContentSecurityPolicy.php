@@ -22,6 +22,7 @@ class ContentSecurityPolicy extends Basic
         $this->addDirective('img-src', 'self');
         $this->addDirective('img-src', 'data:'); // Allow data URIs for images
         $this->addDirective('font-src', 'self');
+        $this->addDirective('frame-src', 'https://www.google.com');
         $this->addDirective('font-src', 'https://progmix.dev');
         $this->addDirective('font-src', 'https://cdn.jsdelivr.net');
         $this->addDirective('font-src', 'data:'); // Allow data URIs for fonts

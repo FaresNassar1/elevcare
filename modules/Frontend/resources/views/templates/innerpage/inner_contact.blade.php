@@ -12,7 +12,7 @@
 
     <div class=" section pv-50  bg-section-gray">
         <div class="container   ">
-            <div class="row pv-50">
+            <div class="row pv-50 justify-content-evenly ">
                 <div class="contact-form col-md-6">
                     <form>
                         <div class="section--title form-title">نحن هنا من أجلك
@@ -31,7 +31,7 @@
                     </form>
                 </div>
 
-                <div class="section-info col-md-6 ">
+                <div class="section-info col-md-5 ">
                     @if (!empty($item->title))
                         <h2 class="section--subtitle  ">
                             {{ $item->title }}

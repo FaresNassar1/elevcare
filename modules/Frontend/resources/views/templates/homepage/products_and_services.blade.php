@@ -40,7 +40,7 @@
 
             </div>
             @if (!empty($part->external_link))
-                <a class="btn btn-primary mt-3 " href="{{ $part->external_link }}">تواصل معنا </a>
+                <a class="btn btn-primary mt-2 " href="{{ $part->external_link }}">تواصل معنا </a>
             @endif
         </div>
     </div>

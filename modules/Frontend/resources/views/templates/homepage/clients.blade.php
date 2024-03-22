@@ -36,7 +36,7 @@
                     </div>
                 @endforeach
             </div>
-            <a class="btn btn-primary mt-3 " href="">تواصل معنا </a>
+            <a class="btn btn-primary mt-2 " href="">تواصل معنا </a>
         </div>
 @endif
     </div>
